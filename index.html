@@ -12,70 +12,78 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       </head>
   <body id="top">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#top">Alebrije Lab</a>
+            <a class="navbar-brand js-scroll-trigger text-pink" href="#top">Alebrije Lab</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle Navigation">Menu <i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse text-pink"  id="navbarResponsive" > 
+            <div class="collapse navbar-collapse"  id="navbarResponsive" > 
                 <ul class="navbar-nav text-uppercase ml-auto" >
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Nosotros">Nosotros</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#link2">Curriculum</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Bootcamps">Talleres</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Nosotros">Nosotros</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Aplica">Aplica</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+   
+
+    </div>
     <header class="masthead">
-      <div class="container">
-        <div class="intro-text"><h1 class="text-white-gray">¿Quieres preparar a tu hijo para un futuro cambiante?</h1></div>
-      </div>
+        
+        <div>
+                
+            <h1 class="text-warning">¿Quieres preparar a tu hijo para un futuro cambiante?</h1>
+            <button type="button" class="btn btn-outline-primary">Aplica</button>
+                
+        </div>
+            
+       
     </header>
-    <div class="bg-faded pt60 pb60" id="Nosotros">
-      <div class="container">
-        <h3 class="text-dark">Nosotros estamos</h3>
-        <h4 class="text-dark">
+    <div class="container pt90"> <!--intro-->
+        <div class="row pb60 text-center">
+            <div class=" col-md-4 mb30" >
+               <div>
+                    <img src="img/ideasmall.jpg" class="image-fluid mb40 rounded-circle">
+                    <h4 class="text-center mb20">Creatividad</h4>
+                    <p>
+                      Creemos que todos los niños son naturalmente creativos y que cada taller debe estar lleno de creatividad y asombro.
+                    </p>
+                </div>
+            </div><!--/col-->
+            <div class="col-md-4 mb30">
+               <div>
+                <img src="img/customer-1.jpg" class="image-fluid mb40 rounded-circle">
+                    <h4 class="text-center mb20">Oportunidades</h4>
+                    <p>           
+                      Creemos que todos los niños merecen la oportunidad de ser su mejor versión, tanto dentro como fuera del taller.
+                    </p>
+                </div>
+            </div><!--/col-->
+            <div class="col-md-4 mb30">
+               <div>
+                <img src="img/onesmall.jpg" class="image-fluid mb40 rounded-circle">
+                  <h4 class="text-center mb20">Únicos</h4>
+                  <p>
+                  Creemos que todos los niños son únicos, auténticos y están destinados a ser originales.
+                  </p>
+                </div>
+            </div><!--/col-->
+        </div>
+      </div><!--/intro-->
+    <div class="bg-faded pt60 pb60" >
+        <div class="container">
+            <h3>Nosotros estamos</h3>
             <p>
+            <h4>
             Comprometidos en generar espacios para desarrollar niños felices que saben quiénes son, entienden sus dones y confían 
             en su capacidad para generar cambios en su entorno, por medio del aprendizaje de tecnología y metodologías de innovación, 
             así como experiencias que desarrollen su imaginación, creatividad y coraje para lograr sus sueños.
+            </h4>
             </p>
-        </h4>
-          
-      </div>
+        </div>
     </div>
-    <div class="container pt90"> <!--intro-->
-      <div class="row pb60">
-          <div class="col-md-4 mb30" >
-             <div class="icon-box icon-box-center">
-                  <i class="icon-hover-1 bg-success icon-hover-default glyphicon glyphicon-cloud"></i>
-                  <h4>Creatividad</h4>
-                  <p>
-                    Creemos que todos los niños son naturalmente creativos y que cada taller debe estar lleno de creatividad y asombro.
-                  </p>
-              </div>
-          </div><!--/col-->
-          <div class="col-md-4 mb30">
-             <div class="icon-box icon-box-center">
-                  <i class="icon-hover-1 bg-warning icon-hover-default glyphicon glyphicon-heart"></i>
-                  <h4>Oportunidades</h4>
-                  <p>           
-                    Creemos que todos los niños merecen la oportunidad de ser su mejor versión, tanto dentro como fuera del taller.
-                  </p>
-              </div>
-          </div><!--/col-->
-          <div class="col-md-4 mb30">
-             <div class="icon-box icon-box-center">
-                  <i class="icon-hover-1 bg-danger icon-hover-default glyphicon glyphicon-record"></i>
-                  <h4>Únicos</h4>
-                  <p>
-                    Creemos que todos los niños son únicos, auténticos y están destinados a ser originales.
-                  </p>
-              </div>
-          </div><!--/col-->
-      </div>
-    </div><!--/intro-->
-    <div class="bg-faded pt90 pb60" id="Bootcamps">
+    
+    <div class="pt90 pb60" id="Bootcamps">
         <div class="container">
             <div class="title-heading1 mb40">
                 <h3>Talleres</h3>
@@ -106,9 +114,98 @@
                                 positivo.
                             </p>
                             <div class="text-right">
-                                <a href="#" class="btn-link-success btn">Read More</a>
+                                <a data-toggle="modal" data-target="#exampleModal" class="btn-link-success btn">Read More</a>
                             </div>
                         </div><!--/entry content-->
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Design Thinking</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    Design Thinking es la confianza de que todos pueden formar parte de la creación de un futuro más deseable y un proceso para tomar medidas ante un desafío difícil. Ese tipo de optimismo es muy necesario en la educación.
+                                    <br>
+                                    <br>
+                                    <div class="row">
+                                        <div class="col-md-1 wow fadeInUp" data-wow-delay=".2s">
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h4 class="text-center">1</h4>
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h4 class="text-center">2</h4>
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h4 class="text-center">3</h4>
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h4 class="text-center">4</h4>
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h4 class="text-center">5</h4>
+                                        </div>
+                                        <div class="col-md-1 wow fadeInUp" data-wow-delay=".2s">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-1 wow fadeInUp" data-wow-delay=".2s">
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h5><p><b>Tengo un desafío.</b></p>
+                                            </h5>
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h5><p><b>Aprendí algo.</b></p>
+                                            </h5>
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h5><p><b>Veo una oportunidad.</b></p>
+                                            </h5>
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h5><p><b>Tengo una idea.</b></p>
+                                            </h5>
+                                        </div>
+                                        <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                            <h5><p><b>Intenté algo nuevo.</b></p>
+                                            </h5>
+                                        </div>
+                                        <div class="col-md-1 wow fadeInUp" data-wow-delay=".2s">
+                                        </div>
+                                    </div>
+                                        <div class="row">
+                                            <div class="col-md-1 wow fadeInUp" data-wow-delay=".2s">
+                                            </div>
+                                            <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                                <h5><p>¿Cómo lo abordo?</p></h5>
+                                            </div>
+                                            <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                                <h5><p>¿Cómo lo interpreto?</p></h5>
+                                            </div>
+                                            <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                                <h5><p>¿Qué puedo crear?</p></h5>
+                                            </div>
+                                            <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                                <h5><p>¿Cómo la construyo?</p></h5>
+                                            </div>
+                                            <div class="col-md-2 wow fadeInUp" data-wow-delay=".2s">
+                                                <h5><p>¿Cómo evolucionarlo?</p></h5>
+                                            </div>
+                                            <div class="col-md-1 mb30 wow fadeInUp" data-wow-delay=".2s">
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div><!--/.col-->
                 <div class="col-md-4 mb30 wow fadeInUp" data-wow-delay=".3s">
@@ -172,10 +269,10 @@
             </div>
         </div>
     </div>
-    <footer class="footer footer-light pt50 pb20">
+    <footer class="footer footer-light pt50 pb20 bg-faded" id="Nosotros">
         <div class="container">
-            <div class="row mb40 text-dark">
-                <h3 class="text-dark">Acerca de nosotros</h3>
+            <div class="row mb40">
+                <h3>Acerca de nosotros</h3>
                 Creemos que todos los niños deben tener a su alcance el desarrollo de habilidades y
                 herramientas, que les permitan contribuir para hacer este un mundo mejor. Queremos brindar
                 nuestro conocimiento por medio de experiencias que les ayuden a encontrar y alcanzar sus
@@ -188,7 +285,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
-                    <span>Síguenos</span>
+                    <span>Síguenos:</span>
                 </div>
                 <div class="col-md-5"> 
                     <div class="clearfix">
@@ -208,8 +305,8 @@
             </div>
         </div>
     </div><!--/footer bottom-->
-  <!--back to top-->
-  <a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="ti-angle-up"></i></a>
+
+  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
