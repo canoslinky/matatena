@@ -11,16 +11,16 @@ Header
 header.masthead{
     text-align:center;
     color: white;
-    
-    background-image: url('../img/girlGlobo.jpg');
-    -webkit-filter: grayscale(50%); /* Safari 6.0 - 9.0 */
+    background-image: url('../img/bg1.jpg');
+    /*
+    -webkit-filter: grayscale(50%); 
     filter: grayscale(50%);
-
+    */
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    padding-top: 300px;
+    padding-top: 200px;
     padding-bottom: 200px;
     
 }
@@ -37,6 +37,8 @@ header.masthead{
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: transparent;
+    
+    
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -45,11 +47,14 @@ header.masthead{
     transition: all 0.3s;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 1.2em;
     padding: 1.1em 1em !important;
-    color: #717171;
+    color: #f0ad4e;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
+    font-size: 1.25em;
     color: #1F7CFF;
+    text-decoration: underline;
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
@@ -73,7 +78,7 @@ body {
     color: #133273;
     letter-spacing: 0em;
     font-family: "Open Sans", sans-serif;
-    font-size: 0.9em;
+    font-size: 1.0em;
     line-height: 1.85714286em;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; 
@@ -248,47 +253,53 @@ Buttons
   cursor: pointer;
   font-weight: 600;
   letter-spacing: 0rem;
-  font-size: .80rem;
+  font-size: 1.0rem;
   font-family: "Poppins", sans-serif;
   padding: 13px 25px 10px !important;
   text-transform: uppercase;
-  vertical-align: middle; }
+  vertical-align: middle;
+ }
 
 .btn.btn-link-success {
-color: #5cb85c !important;
+  color: #5cb85c;
 }
 
 .btn.btn-link-warning {
-color: #f0ad4e;
+  color: #f0ad4e;
 }
 
 .btn.btn-link-info {
-color: #5bc0de;
+  color: #5bc0de;
+}
+
+.btn.btn-link {
+  font-size: 1.0rem;
 }
 
 .btn.btn-link-danger {
 color: #c9302c;
 }
 
-
-.btn.btn-link:after {
-  font-family: 'themify';
-  content: "\e661";
-  margin-left: 5px;
-  font-size: 12px; 
-}
-
 .btn.btn-link:hover {
-  text-decoration: none;
-  color: #999; 
+  font-size: 1.1rem;
+  text-decoration: underline;
+  color: #1F7CFF; 
 }
-
 
 .bg-faded {
   background: #fbfafa; 
 }
 
+.bg-success {
+  color: #5cb85c !important; }
 
+.bg-warning {
+  background: #f0ad4e; 
+}
+
+.bg-pink {
+  color: #fe0062 !important; }
+  
 /***social icons small***/
 .social-icon-sm {
     margin: 0 5px 5px 0;
@@ -450,7 +461,8 @@ Blog post entries
       .entry-content .entry-title a:hover {
         color: #3483de; }
   .entry-content .entry-meta span {
-    font-size: 12px; }
+    font-size: 16px; 
+  }
 
 .entry-title {
   font-size: 1.3em;
