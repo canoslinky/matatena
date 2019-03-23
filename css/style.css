@@ -29,14 +29,13 @@ navbar
 */
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: transparent;
-    
+    background: rgba(255, 255, 255, 0.911)
     
   }
   #mainNav .navbar-brand {
@@ -58,11 +57,26 @@ navbar
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+}
+@media (max-width: 992px) {
+  #mainNav {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background: rgba(255, 255, 255, 0.911)
+    
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -273,7 +287,17 @@ h6,
     background-color: black;
     border: 0px !important;
     color: #fff !important; }
+    
+  .flex-column {
+      max-width: 260px;
+  }
   
-
-
+  img {
+      margin: 5px;
+  }
+  
+  .scale {
+      transform: scaleY(1.05);
+      padding-top: 5px; 
+  }
 
